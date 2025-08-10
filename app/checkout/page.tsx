@@ -3,7 +3,6 @@
 import { useState } from 'react'
 import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
-import Link from 'next/link'
 
 type ActiveSection = 'orders' | 'saved' | 'subscriptions' | 'consultations' | 'profile' | 'logout'
 

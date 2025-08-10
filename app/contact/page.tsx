@@ -25,7 +25,7 @@ export default function Contact() {
       <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <h1 className="text-4xl font-bold mb-4">Contact Us</h1>
-          <p className="text-xl opacity-90">We're here to help with your health journey</p>
+          <p className="text-xl opacity-90">We&apos;re here to help with your health journey</p>
         </div>
       </div>
 

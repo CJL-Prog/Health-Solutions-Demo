@@ -34,7 +34,7 @@ export default function Account() {
           <div className="md:col-span-3">
             <div className="bg-white rounded-lg shadow p-6 mb-6">
               <h1 className="text-2xl font-bold mb-2">Hi John, welcome back!</h1>
-              <p className="text-gray-600">Here's what's happening with your account.</p>
+              <p className="text-gray-600">Here&apos;s what&apos;s happening with your account.</p>
             </div>
             
             {/* Quick Actions */}

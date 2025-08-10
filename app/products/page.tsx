@@ -2,16 +2,28 @@
 import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
 import { useState, useEffect } from 'react'
-import Link from 'next/link'
+
+interface Product {
+  id: number
+  name: string
+  price: number
+  category: string
+  desc: string
+  quantity?: number
+}
+
+interface CartItem extends Product {
+  quantity: number
+}
 
 export default function Products() {
   const [activeFilter, setActiveFilter] = useState('All')
-  const [cart, setCart] = useState<any[]>([])
+  const [cart, setCart] = useState<CartItem[]>([])
   const [showNotification, setShowNotification] = useState(false)
   
   const filters = ['All', 'Popular', 'Capsules', 'Blends', 'New Arrivals']
   
-  const products = [
+  const products: Product[] = [
     { id: 1, name: 'Semaglutide 5mg', price: 299, category: 'Popular', desc: 'GLP-1 for weight management' },
     { id: 2, name: 'BPC-157 10mg', price: 189, category: 'Popular', desc: 'Healing & recovery peptide' },
     { id: 3, name: 'Ipamorelin 5mg', price: 249, category: 'New Arrivals', desc: 'Growth hormone peptide' },
@@ -28,7 +40,7 @@ export default function Products() {
     }
   }, [])
 
-  const addToCart = (product: any) => {
+  const addToCart = (product: Product) => {
     const newCart = [...cart]
     const existingItem = newCart.find(item => item.id === product.id)
     

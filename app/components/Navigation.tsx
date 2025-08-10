@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link'
 import { useState } from 'react'
-import { ShoppingCartIcon, UserIcon } from '@heroicons/react/24/outline'
+import { ShoppingCartIcon } from '@heroicons/react/24/outline'
 
 export default function Navigation() {
   const [cartCount] = useState(3)

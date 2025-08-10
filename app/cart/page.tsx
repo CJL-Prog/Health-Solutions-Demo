@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 
 export default function Cart() {
-  const [cartItems, setCartItems] = useState([
+  const [cartItems] = useState([
     { id: 1, name: 'Semaglutide 5mg', price: 299, quantity: 1 },
     { id: 2, name: 'BPC-157 10mg', price: 189, quantity: 2 },
     { id: 3, name: 'Ipamorelin 5mg', price: 249, quantity: 1 },

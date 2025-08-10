@@ -134,7 +134,7 @@ export default function Home() {
             {[
               { quote: "Lost 35 pounds in 3 months with their Semaglutide program. Life-changing results!", author: "Sarah M." },
               { quote: "The HRT consultation was thorough and professional. Feel 10 years younger!", author: "Michael R." },
-              { quote: "BPC-157 healed my shoulder injury faster than anything else I've tried.", author: "James T." },
+              { quote: "BPC-157 healed my shoulder injury faster than anything else I&apos;ve tried.", author: "James T." },
             ].map((testimonial, i) => (
               <div key={i} className="bg-gray-50 p-6 rounded-lg">
                 <div className="flex mb-4">
@@ -142,7 +142,7 @@ export default function Home() {
                     <span key={i} className="text-yellow-400">★</span>
                   ))}
                 </div>
-                <p className="text-gray-600 italic mb-4">"{testimonial.quote}"</p>
+                <p className="text-gray-600 italic mb-4">&ldquo;{testimonial.quote}&rdquo;</p>
                 <p className="font-semibold">- {testimonial.author}</p>
               </div>
             ))}

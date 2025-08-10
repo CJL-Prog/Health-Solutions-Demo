@@ -6,7 +6,7 @@ export default function About() {
     { name: 'Dr. Michael Chen', role: 'Chief Medical Officer', desc: '20+ years in endocrinology' },
     { name: 'Sarah Johnson, PhD', role: 'Head of Research', desc: 'Peptide biochemistry expert' },
     { name: 'Robert Martinez', role: 'CEO & Founder', desc: 'Former pharma executive' },
-    { name: 'Dr. Amanda Foster', role: 'Clinical Director', desc: 'Women\'s hormone specialist' },
+    { name: 'Dr. Amanda Foster', role: 'Clinical Director', desc: 'Women&apos;s hormone specialist' },
   ]
 
   return (
@@ -35,7 +35,7 @@ export default function About() {
               </h3>
               <p className="leading-relaxed">
                 Founded in 2020, Health Solutions emerged from a simple belief: everyone deserves access to cutting-edge therapeutic peptides 
-                and hormone optimization treatments that were once available only to elite athletes and celebrities. We're committed to 
+                and hormone optimization treatments that were once available only to elite athletes and celebrities. We&apos;re committed to 
                 democratizing access to these life-changing therapies while maintaining the highest standards of quality, safety, and medical oversight.
               </p>
             </div>
@@ -61,7 +61,7 @@ export default function About() {
                 <span className="text-3xl mr-3">🇺🇸</span> 100% USA-Based Operations
               </h3>
               <p className="leading-relaxed">
-                We're proud to be a fully American company with all operations based in the United States. From sourcing raw materials 
+                We&apos;re proud to be a fully American company with all operations based in the United States. From sourcing raw materials 
                 to final packaging, every step happens on American soil, ensuring complete transparency, FDA compliance, and fast shipping.
               </p>
             </div>
