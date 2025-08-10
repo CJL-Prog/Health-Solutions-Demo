@@ -34,7 +34,7 @@ export default function Cart() {
                   <h3 className="font-semibold text-lg">{item.name}</h3>
                   <p className="text-gray-600 text-sm mb-2">Lab-tested for purity</p>
                   <div className="flex items-center gap-4">
-                    <select className="border rounded px-3 py-1" defaultValue={item.quantity}>
+                    <select className="border rounded px-3 py-1 bg-white text-gray-900" defaultValue={item.quantity}>
                       <option value="1">Qty: 1</option>
                       <option value="2">Qty: 2</option>
                       <option value="3">Qty: 3</option>
