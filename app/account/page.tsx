@@ -386,7 +386,7 @@ export default function Account() {
                         type="text" 
                         value={user.name}
                         onChange={(e) => setUser({...user, name: e.target.value})}
-                        className="w-full border rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                        className="w-full border rounded-lg px-3 py-2 bg-white text-gray-900 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                       />
                     </div>
                     <div>
@@ -395,7 +395,7 @@ export default function Account() {
                         type="email" 
                         value={user.email}
                         onChange={(e) => setUser({...user, email: e.target.value})}
-                        className="w-full border rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                        className="w-full border rounded-lg px-3 py-2 bg-white text-gray-900 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                       />
                     </div>
                     <div>
@@ -404,7 +404,7 @@ export default function Account() {
                         type="tel" 
                         value={user.phone}
                         onChange={(e) => setUser({...user, phone: e.target.value})}
-                        className="w-full border rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                        className="w-full border rounded-lg px-3 py-2 bg-white text-gray-900 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                       />
                     </div>
                   </div>
@@ -418,7 +418,7 @@ export default function Account() {
                       <input 
                         type="password" 
                         placeholder="••••••••"
-                        className="w-full border rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                        className="w-full border rounded-lg px-3 py-2 bg-white text-gray-900 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                       />
                     </div>
                     <div>
@@ -426,7 +426,7 @@ export default function Account() {
                       <input 
                         type="password" 
                         placeholder="••••••••"
-                        className="w-full border rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                        className="w-full border rounded-lg px-3 py-2 bg-white text-gray-900 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                       />
                     </div>
                     <div className="bg-blue-50 p-4 rounded-lg">
